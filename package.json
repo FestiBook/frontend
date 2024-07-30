@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@linaria/core": "^4.1.2",
@@ -19,8 +21,20 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@linaria/babel-preset": "^4.2.1",
     "@linaria/webpack-loader": "^4.1.4",
+=======
+    "@chromatic-com/storybook": "^1.6.1",
+    "@storybook/addon-essentials": "^8.3.0-alpha.3",
+    "@storybook/addon-interactions": "^8.3.0-alpha.3",
+    "@storybook/addon-links": "^8.3.0-alpha.3",
+    "@storybook/addon-onboarding": "^8.3.0-alpha.3",
+    "@storybook/blocks": "^8.3.0-alpha.3",
+    "@storybook/nextjs": "^8.3.0-alpha.3",
+    "@storybook/react": "^8.3.0-alpha.3",
+    "@storybook/test": "^8.3.0-alpha.3",
+>>>>>>> 83c5a94 (chore : 스토리북 라이브러리 설치)
     "@tanstack/eslint-plugin-query": "^5.51.12",
     "@tanstack/react-query-devtools": "^5.51.11",
     "@types/node": "^20",
@@ -31,7 +45,10 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-storybook": "^0.8.0",
     "prettier": "3.3.3",
+    "sb": "^8.2.6",
+    "storybook": "^8.3.0-alpha.3",
     "typescript": "^5"
   }
 }
