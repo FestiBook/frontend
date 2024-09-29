@@ -52,7 +52,7 @@ function MyPage() {
           <MyPageReview />
           <Profile />
         </S.Box>
-        {/* <Bookmark /> */}
+        <Bookmark />
         <Planner />
       </S.Container>
     </>
