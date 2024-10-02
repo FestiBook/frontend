@@ -16,7 +16,7 @@ function TripPlannerPage() {
   if (isPending) {
     return <TripPlannerLoading />;
   }
-  console.log(data);
+
   return (
     <>
       <MetaData title="AI 여행 플래너 | FestiBook" />
